@@ -11,6 +11,8 @@
     <modules>
         <module>roshambo</module>
         <module>draw</module>
+        <module>timespan</module>
+        <module>tesk2</module>
     </modules>
 
     <dependencies>
