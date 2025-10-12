@@ -61,7 +61,6 @@ public class PaintSurface extends JComponent {
                 endDrag = startDrag;
                 repaint();
             }
-
             // Цей метод буде виконано, якщо користувач відпускає
             // кнопку миші
             public void mouseReleased(MouseEvent e) {
@@ -105,6 +104,10 @@ public class PaintSurface extends JComponent {
         });
     }
 
+    public  void clearShapes() {
+        shapes.clear();
+        repaint();
+    }
     // Встановлення типу фігури
     public void setShapeType(int type) {
         this.shapeType = type;
